@@ -1,0 +1,15 @@
+ext{
+    version=[
+            retrofit        : '2.9.0',
+            gson            : '2.9.0',
+            interceptor     : '4.9.0',
+    ]
+
+    libraries=[
+        //network
+        retrofit        : "com.squareup.retrofit2:retrofit:${versions.retrofit}",
+        gson            : "com.squareup.retrofit2:converter-gson:${versions.gson}",
+        google_gson            : "'com.google.code.gson:gson:${versions.gson}",
+        interceptor     : "com.squareup.okhttp3:logging-interceptor:${versions.interceptor}",
+    ]
+}
